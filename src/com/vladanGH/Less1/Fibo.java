@@ -10,6 +10,8 @@ public class Fibo {
         if (n <= 1) ;
         return n;
 
+        return fibNaive(n-1) + fibNaive(n-2);
+
 
 
     }
